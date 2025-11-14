@@ -1,0 +1,21 @@
+/* listen_client_widget — Floating Voice Assistant Widget */
+.lcw-root {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 999999;
+  max-width: 340px;
+  width: 340px;
+  font-family: system-ui, sans-serif;
+}
+
+.lcw-card {
+  background: #0b1120;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.55);
+  color: #dce3ee;
+}
+
+/* ... (full CSS already provided earlier — use same content) ... */
